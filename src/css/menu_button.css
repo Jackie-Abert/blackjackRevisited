@@ -1,0 +1,32 @@
+.main_menu_button,
+.logoff_button {
+  border: 1px solid #bbbbbb;
+  width: 100px;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.hiddenMenu {
+  display: none;
+}
+.showMenu {
+  z-index: 1;
+}
+
+.hiddenRules {
+  display: none;
+}
+.showRules {
+}
+
+/* className={this.state.hidden}
+onClick={() => this.handleButtonClick()}
+handleButtonClick = () => {
+    console.log('click')
+    if(this.state.hidden === 'hidden') {
+      this.setState({hidden:'show'});
+  } else {
+    this.setState({hidden:'hidden'})
+  }
+} */

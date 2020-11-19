@@ -1,0 +1,20 @@
+h2 {
+  margin: auto;
+}
+.game_rules_page {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: #bfbfbe;
+  z-index: 10;
+  min-height: 500px;
+  top: 50%;
+  margin-left: -250px;
+}
+.game_rules_page p {
+  text-align: left;
+}
+.close_page_button {
+  align-content: flex-end;
+  width: 50px;
+}

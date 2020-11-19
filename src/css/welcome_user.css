@@ -1,0 +1,12 @@
+.new_game_button, .logoff_button{
+    border: 1px solid #bbbbbb;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+}
+.welcome_user_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

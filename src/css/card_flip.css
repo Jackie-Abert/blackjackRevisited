@@ -1,0 +1,41 @@
+.flip_card {
+  margin: 10px;
+  width: 100px;
+  height: 150px;
+  perspective: 1000px;
+
+  border-radius: 8px;
+}
+.content {
+  position: relative; /* Required to absolutely position the child faces */
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* .flip_card:hover .content {
+  transform: rotateY(180deg);
+} */
+.front_of_card,
+.back_of_card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front_of_card {
+  background-image: url(../Images/cardback.png);
+  background-size: 100px 150px;
+  border: 0.5px solid #bbbbbb;
+  box-shadow: 1px 1px 2px #7a7a7a;
+  border-radius: 8px;
+  background-color:#909090;
+}
+.back_of_card {
+    background-color: #f9f7f2;
+    border: 0.5px solid #bbbbbb;
+    box-shadow: 1px 1px 2px #7a7a7a;
+    border-radius: 8px;
+    /* transform: rotateY(180deg); */
+}

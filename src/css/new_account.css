@@ -1,0 +1,24 @@
+.newAccount_page{
+    display: flex;
+    flex-direction: column;
+}
+.newAccount_page_form{
+    display: flex;
+    flex-direction: column;
+}
+.newAccount_page_form input{
+    width:200px;
+    padding: 5px;
+    margin: auto;
+}
+.newAccount_page_form label{
+    padding-right:150px;
+    margin: 10px;
+}
+.submit_button, .goback_button {
+    width:100px;
+    height: 30px;
+    border-radius: 4px;
+    margin: 20px 10px;
+    border: 1px solid #bbbbbb;
+}
